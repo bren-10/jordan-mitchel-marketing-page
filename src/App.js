@@ -1,14 +1,14 @@
-import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
-import './App.css';
+import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      </header>
+      <header className="App-header"></header>
       <Navbar bg="light" expand="lg">
-      <Container>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand href="#home">
+          <img src="/logo.png"></img>
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
@@ -27,9 +27,7 @@ function App() {
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
-      </Container>
-    </Navbar>
-    <h1>Hello world</h1>
+      </Navbar>
     </div>
   );
 }
